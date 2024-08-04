@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&display=swap');
+
+
+
+.container{
+
+}
+
+.date-container{
+
+}
+
+.date-container .time{
+    position: absolute;
+
+    left: 350px;
+    top: 76px;
+
+    font-family: Manrope;
+    font-weight: 900;
+    font-size: 12px;
+}
+
+.date-container .date{
+    position: absolute;
+
+    left: 244px;
+    top: 76px;
+
+    font-family: Manrope;
+    font-weight: 900;
+    font-size: 12px;
+}
+
+.today img{
+    position: absolute;
+
+    left: 327px;
+    top: -10px;
+    filter: drop-shadow(0px 0px 1px #595959);
+}
+
+.today{
+    
+}
+
+.today .temp-night{
+    position: absolute;
+
+    left: 334px;
+    top: 10px;
+
+    font-family: Bookish;
+    font-weight: 900;
+    font-size: 30px;
+
+    
+}
+
+
