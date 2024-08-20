@@ -16,7 +16,8 @@
     .date-container .time{
        left: auto;
        right: 10px;
-       top: 76px;
+       top: 60px;
+       font-size: 10px;
     }
 }
 
@@ -36,7 +37,8 @@
     .date-container .date{
        left: auto;
        right: 10px;
-       top: 56px;
+       top: 45px;
+       font-size: 10px;
     }
 }
 
@@ -57,7 +59,8 @@
     .today .temp-night{
        left: auto;
        right: 10px;
-       top: 10px;
+       top: 7px;
+       font-size: 20px;
     }
 }
 

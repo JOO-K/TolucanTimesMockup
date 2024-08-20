@@ -22,7 +22,8 @@
 
 @media all and (max-width: 800px) {
     .color-container{
-       width: 25px;
+       width: 22px;
+       height: 100px;
     }
 }
 
@@ -32,6 +33,14 @@
     padding: 0px 10px;
     margin: 0px;
     background-color: white;
+}
+
+@media all and (max-width: 800px) {
+    .logo-container{
+        width: 180px;
+       height: 70px;
+       padding: 5px 0px;
+    }
 }
 
 .logo-container img {
@@ -59,7 +68,12 @@
 
 @media all and (max-width: 800px) {
     .logo-container h1{
-       left: 19px;
+        width: 180px;
+        font-size: 12px;
+       left: 20px;
+       top: 72px;
+       height: 15px;
+       padding-top: 4px;
     }
 }
 
@@ -82,6 +96,12 @@
     box-shadow: 0 0 0 5px #f3f5f6 inset;
     animation: linear 50s rotatesun infinite;
     transform: rotate(0deg);
+}
+
+@media all and (max-width: 800px) {
+    .disc-container{
+        left: 130px;
+    }
 }
 
 @keyframes rotatesun {
@@ -111,6 +131,7 @@
 @media all and (max-width: 800px) {
     .link-container-0{
        width: calc(100vw - 205px);
+       height: 80px;
     }
 }
 
