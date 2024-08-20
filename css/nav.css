@@ -22,7 +22,7 @@
 
 @media all and (max-width: 800px) {
     .color-container{
-       width: 25px;
+       width: 40px;
        height: 80px;
     }
 }
@@ -101,7 +101,7 @@
 
 @media all and (max-width: 800px) {
     .disc-container{
-        left: 130px;
+        left: 180px;
     }
 }
 
@@ -131,7 +131,7 @@
 
 @media all and (max-width: 800px) {
     .link-container-0{
-       width: calc(100vw - 205px);
+       width: calc(100vw - 220px);
        height: 80px;
     }
 }
