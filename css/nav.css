@@ -18,13 +18,26 @@
     padding: 0px;
     margin: 0px;
     background-color: dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 @media all and (max-width: 800px) {
     .color-container{
        width: 40px;
        height: 80px;
+      
     }
+}
+
+.color-container img{
+    object-fit: contain;
+    height: 50%;
+    width: 63%;
+    filter: invert(1);
+    vertical-align: middle;
 }
 
 .logo-container {
@@ -101,7 +114,7 @@
 
 @media all and (max-width: 800px) {
     .disc-container{
-        left: 180px;
+        left: 160px;
     }
 }
 
