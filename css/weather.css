@@ -1,15 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&display=swap');
 
 
-
-.container{
-
-}
-
-.date-container{
-
-}
-
 .date-container .time{
     position: absolute;
 
@@ -38,10 +29,6 @@
     left: 327px;
     top: -10px;
     filter: drop-shadow(0px 0px 1px #595959);
-}
-
-.today{
-    
 }
 
 .today .temp-night{

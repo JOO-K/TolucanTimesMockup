@@ -1,44 +1,4 @@
-@font-face {
-    font-family: pt root;
-    src: url(./fonts/pt-root.ttf);
-}
 
-@font-face {
-    font-family: Fraunces;
-    src: url(./fonts/Fraunces.ttf);
-}
-
-@font-face {
-    font-family: Fraunces Italic;
-    src: url(./fonts/Fraunces-Italic.ttf);
-}
-
-@font-face {
-    font-family: Manrope;
-    src: url(./fonts/Manrope.ttf);
-}
-
-@font-face {
-    font-family: Bookish;
-    src: url(./fonts/Bookish.otf);
-}
-
-html {}
-
-body {
-    margin: 0px;
-    padding: 0px;
-}
-
-/* hide scrollbar but allow scrolling */
-element {
-    -ms-overflow-style: none; /* for Internet Explorer, Edge */
-    scrollbar-width: none; /* for Firefox */
-    overflow-y: scroll;
-  }
-  body::-webkit-scrollbar {
-    display: none; /* for Chrome, Safari, and Opera */
-  }
 
 .nav-container {
     position: absolute;
@@ -58,6 +18,12 @@ element {
     padding: 0px;
     margin: 0px;
     background-color: dodgerblue;
+}
+
+@media all and (max-width: 800px) {
+    .color-container{
+       width: 25px;
+    }
 }
 
 .logo-container {
@@ -89,6 +55,12 @@ element {
     background-color: dodgerblue;
     text-align: center;
     border-radius: 0px 0px 20px 0px;
+}
+
+@media all and (max-width: 800px) {
+    .logo-container h1{
+       left: 19px;
+    }
 }
 
 .nav-container a {
@@ -134,7 +106,12 @@ element {
     text-align: left;
     transition: .2s;
     overflow: hidden;
-    
+}
+
+@media all and (max-width: 800px) {
+    .link-container-0{
+       width: calc(100vw - 205px);
+    }
 }
 
 .link-container-0 h1 {
@@ -148,10 +125,6 @@ element {
     padding: 15px 0px 0px 15px;
 }
 
-.elfsight-app-de1e9bed-0575-48d6-9353-97c9cb4dcdf6{
-    height: 520px;
-}
-
 .link-container-1 {
     width: 150px;
     height: 99px;
@@ -160,10 +133,6 @@ element {
 
     text-align: right;
     transition: .2s;
-}
-
-.link-container-1:hover {
-    background-color: dodgerblue;
 }
 
 .link-container-1 h1 {
@@ -178,13 +147,13 @@ element {
 }
 
 .link-container-2 {
-    width: 140px;
+    width: 110px;
     height: 99px;
     background-color: #dd6d2c;
     box-sizing: border-box;
 
     text-align: right;
-
+    transition: .2s;
 
 }
 
@@ -200,11 +169,11 @@ element {
 }
 
 .link-container-3 {
-    width: 140px;
+    width: 110px;
     height: 99px;
     background-color: #c54a2b;
     box-sizing: border-box;
-
+    transition: .2s;
     text-align: right;
 }
 
@@ -216,16 +185,17 @@ element {
     color: white;
     filter: drop-shadow(0px 0px 1px black);
     margin: 0px;
-    padding: 64px 20px 0px 0px;
+    padding: 40px 20px 0px 0px;
 }
 
 .link-container-4 {
     width: 110px;
     height: 99px;
-    background-color: dodgerblue;
+    background-color: brown;
     box-sizing: border-box;
-    border-radius: 0px 0px 20px 0px;
+    border-radius: 0px 0px 0px 0px;
     text-align: right;
+    transition: .2s;
 }
 
 .link-container-4 h1 {
@@ -239,6 +209,62 @@ element {
     padding: 40px 20px 0px 0px;
 }
 
+.link-container-5 {
+    width: 110px;
+    height: 99px;
+    background-color: dodgerblue;
+    box-sizing: border-box;
+    border-radius: 0px 0px 20px 0px;
+    text-align: right;
+    transition: .2s;
+}
+
+.link-container-5 h1 {
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: -0.1px;
+    color: white;
+    filter: drop-shadow(0px 0px 1px black);
+    margin: 0px;
+    padding: 40px 20px 0px 0px;
+}
+
+.link-container-1:hover {
+    background-color: dodgerblue;
+}
+.link-container-2:hover {
+    background-color: dodgerblue;
+}
+.link-container-3:hover {
+    background-color: dodgerblue;
+}
+.link-container-4:hover {
+    background-color: dodgerblue;
+}
+.link-container-5:hover {
+    background-color: dodgerblue;
+}
+
+@media all and (max-width: 800px) {
+    .link-container-1{
+       display: none;
+    }
+    .link-container-2{
+        display: none;
+    }
+    .link-container-3{
+        display: none;
+    }
+    .link-container-4{
+        display: none;
+    }
+    .link-container-5{
+        display: none;
+    }
+}
+
+
 .donate-container {
     position: absolute;
     right: 20px;
@@ -250,6 +276,12 @@ element {
     z-index: 5;
     padding: 10px;
     text-align: center;
+}
+
+@media all and (max-width: 800px) {
+        .donate-container{
+           display: none;
+        }
     }
 
 .donate-container img{
@@ -271,7 +303,7 @@ element {
     transition: .5s;
     filter: drop-shadow(0 0 1px black);
     animation: .5s loadindonate;
-    transform: translateY(0px));
+    transform: translateY(0px);
 }
 
 .donate-container:hover h1{
@@ -282,90 +314,12 @@ element {
 @keyframes loadindonate {
 
 0% {
-    transform: translateY(50px));
+    transform: translateY(50px);
 }
 
 
 100% {
-    transform: translateY(0px));
+    transform: translateY(0px);
 }
 
 }
-
-.slide-container {
-    z-index: -2;
-    width: 100vw;
-    height: 60vh;
-    min-height: 500px;
-    background-color: antiquewhite;
-    margin: 0px;
-    padding: 0px;
-}
-
-.hp-container{
-    width: 100%;
-    height: 400px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-}
-
-.medium-box{
-    width: 30vw;
-    box-sizing: border-box;
-    padding: 0px;
-    margin: 0px;
-    border-bottom: 1px dashed black;
-}
-
-.medium-box h1{
-    width: 210px;
-
-    font-family: Manrope;
-    font-size: 12px;
-    font-weight: 900;
-    letter-spacing: -0.1px;
-    text-transform: uppercase;
-
-    margin: 0px;
-    padding: 5px 10px;
-
-    background-color: orange;
-    color: black;
-    border-radius: 0px 0px 50px 0px;
-
-
-}
-
-.large-box{
-    width: 40vw;
-    box-sizing: border-box;
-    padding: 0px;
-    margin: 0px;
-    border: 1px dashed black;
-    border-width: 0px 1px 1px 1px;
-}
-
-.large-box h1{
-    width: 210px;
-
-    font-family: Manrope;
-    font-size: 12px;
-    font-weight: 900;
-    letter-spacing: -0.1px;
-    text-transform: uppercase;
-
-    margin: 0px;
-    padding: 5px 10px;
-
-    background-color: orange;
-    color: black;
-
-    border-radius: 0px 0px 50px 0px;
-
-   
-
-}
-
-
-
