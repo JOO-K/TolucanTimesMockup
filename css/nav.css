@@ -22,8 +22,8 @@
 
 @media all and (max-width: 800px) {
     .color-container{
-       width: 22px;
-       height: 100px;
+       width: 25px;
+       height: 80px;
     }
 }
 
@@ -68,6 +68,7 @@
 
 @media all and (max-width: 800px) {
     .logo-container h1{
+        display: none;
         width: 180px;
         font-size: 12px;
        left: 20px;
