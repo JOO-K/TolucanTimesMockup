@@ -12,6 +12,15 @@
     font-size: 12px;
 }
 
+@media all and (max-width: 800px) {
+    .date-container .time{
+       left: auto;
+       right: 10px;
+       top: 76px;
+    }
+}
+
+
 .date-container .date{
     position: absolute;
 
@@ -23,12 +32,12 @@
     font-size: 12px;
 }
 
-.today img{
-    position: absolute;
-
-    left: 327px;
-    top: -10px;
-    filter: drop-shadow(0px 0px 1px #595959);
+@media all and (max-width: 800px) {
+    .date-container .date{
+       left: auto;
+       right: 10px;
+       top: 56px;
+    }
 }
 
 .today .temp-night{
@@ -42,6 +51,14 @@
     font-size: 30px;
 
     
+}
+
+@media all and (max-width: 800px) {
+    .today .temp-night{
+       left: auto;
+       right: 10px;
+       top: 10px;
+    }
 }
 
 
