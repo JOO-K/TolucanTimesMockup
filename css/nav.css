@@ -33,11 +33,18 @@
 }
 
 .color-container img{
+    display: none;
     object-fit: contain;
     height: 50%;
     width: 63%;
     filter: invert(1);
     vertical-align: middle;
+}
+
+@media all and (max-width: 800px) {
+    .color-container img{
+       display: block;
+    }
 }
 
 .logo-container {
