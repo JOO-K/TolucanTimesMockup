@@ -110,6 +110,14 @@
     border-radius: 3px;
 }
 
+@media all and (max-width: 800px) {
+    .work-title H3{
+       width: auto;
+       font-size: 10px;
+       top: -35px;
+    }
+}
+
 .work-title h4{
     position: absolute;
     left: 0px;

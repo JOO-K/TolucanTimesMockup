@@ -66,6 +66,13 @@ element {
     border-bottom: 1px dashed black;
 }
 
+@media all and (max-width: 800px) {
+    .medium-box{
+       display: none;
+    }
+}
+
+
 .medium-box h1{
     width: 50%;
 
@@ -94,6 +101,12 @@ element {
     border-width: 0px 1px 1px 1px;
 }
 
+@media all and (max-width: 800px) {
+    .large-box{
+       width: 100vw;
+    }
+}
+
 .large-box h1{
     width: 50%;
 
@@ -113,8 +126,6 @@ element {
 
 }
 
-#calendarTitle{
-    margin-bottom: 10px;
-}
+
 
 
