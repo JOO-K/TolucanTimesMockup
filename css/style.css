@@ -67,7 +67,7 @@ element {
 }
 
 .medium-box h1{
-    width: 210px;
+    width: 50%;
 
     font-family: Manrope;
     font-size: 12px;
@@ -88,14 +88,14 @@ element {
 .large-box{
     width: 40vw;
     box-sizing: border-box;
-    padding: 0px;
+    padding: 2%;
     margin: 0px;
     border: 1px dashed black;
     border-width: 0px 1px 1px 1px;
 }
 
 .large-box h1{
-    width: 210px;
+    width: 50%;
 
     font-family: Manrope;
     font-size: 12px;
@@ -111,9 +111,10 @@ element {
 
     border-radius: 0px 0px 50px 0px;
 
-   
-
 }
 
+#calendarTitle{
+    margin-bottom: 10px;
+}
 
 
