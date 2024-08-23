@@ -47,6 +47,10 @@
     }
 }
 
+#mobilenav{
+    padding: 12px 3px;
+}
+
 .mobilenavbox{
     display: none;
     position: absolute;
