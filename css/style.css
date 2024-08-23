@@ -152,6 +152,31 @@ element {
 
 }
 
+.mobile-hp-container{
+    width: 100vw;
+    height: 50vw;
+    display:none;
+}
+
+@media all and (max-width: 800px) {
+    .mobile-hp-container{
+       display: flex;
+       flex-direction: row;
+    }
+}
+
+.mobilehp-sub-box{
+    width: 50%;
+    height: 100%;
+}
+
+.mobilehp-sub-box img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
 
 
 
