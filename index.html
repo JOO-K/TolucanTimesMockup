@@ -38,15 +38,19 @@
 
 
         <div class="mobilenavbox" id="mobilenavbox">
-            <div style="background-color: #de8c35;" class="mobile-sub-box">Prints & Publications</div>
-            <div style="background-color: #dd6d2c;" class="mobile-sub-box">Our Friends</div>
-            <div style="background-color: #c54a2b;" class="mobile-sub-box">Local Events</div>
-            <div style="background-color:  brown;" class="mobile-sub-box">Merch / Shop</div>
-            <div style="background-color: dodgerblue;" class="mobile-sub-box">Contact Us</div>
+            <div style="background-color: #de8c35; width: 160px;" class="mobile-sub-box">Prints & Publications</div>
+            <div style="background-color: #dd6d2c; width: 135px;" class="mobile-sub-box">Our Friends</div>
+            <div style="background-color: #c54a2b; width: 115px;" class="mobile-sub-box">Local Events</div>
+            <div style="background-color:  brown;  width: 105px;" class="mobile-sub-box">Merch / Shop</div>
+            <div style="background-color: dodgerblue; width: 95px;" class="mobile-sub-box">Contact Us</div>
 
+            <a href=""><div class="mobile-about-box"><img src="https://icons.veryicon.com/png/o/miscellaneous/jt2/question-mark-circle.png"></div></a>
+
+            <a href="https://www.instagram.com/thetolucantimesla/" target="_blank"><div class="mobile-social-box"><img src="https://cdn-icons-png.flaticon.com/256/145/145805.png"></div></a>
+            
             <div class="mobile-donate-box"><img src="images/Donate_Icon.png"></div>
 
-            <img src="images/Swan-BG.png">
+            <img src="images/TT_Swan_BacktoSchool.png">
 
             <div class="marquee">
                 <h1>New Issue Releasing August 23!  </h1>
@@ -96,37 +100,6 @@
 
             </div>
         </div>
-
-        <a href="">
-            <div class="link-container-1">
-                <h1>Prints &<br>Publications</h1>
-            </div>
-        </a>
-
-        <a href="">
-            <div class="link-container-2">
-                <h1>Our<br>Friends</h1>
-            </div>
-        </a>
-
-        <a href="">
-            <div class="link-container-3">
-                <h1>List of<br>Events</h1>
-            </div>
-        </a>
-
-        <a href="">
-            <div class="link-container-4">
-                <h1>Merch/<br>Shop</h1>
-            </div>
-        </a>
-
-        <a href="">
-            <div class="link-container-5">
-                <h1>Contact Us</h1>
-            </div>
-        </a>
-
     </div>
 
     <a href="">
@@ -349,13 +322,14 @@
         var galleryTop = new Swiper('.gallery-top', {
             spaceBetween: 10,
             effect: 'fade',
-            grabCursor: true,
+            grabCursor: false,
+            allowTouchMove: false,
             loop: true,
             centeredSlides: true,
             slidesPerView: 'auto',
             autoplay: {
                 delay: 8000,
-                disableOnInteraction: true,
+                disableOnInteraction: false,
             },
 
             navigation: {
