@@ -2,7 +2,7 @@
 
 .publications-container{
     width: 100vw;
-    height: 320px;
+    height: 350px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -34,6 +34,13 @@
     font-family: Manrope;
     font-weight: 900;
     font-size: 18px;
+}
+
+.publications-box h2{
+    font-family: Manrope;
+    font-weight: 300;
+    font-size: 12px;
+
 }
 
 .publications-box img{
