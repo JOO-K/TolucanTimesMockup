@@ -76,6 +76,13 @@ element {
     text-align: center;
 }
 
+.medium-box img{
+   
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
 @media all and (max-width: 800px) {
     .medium-box{
        display: none;
